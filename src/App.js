@@ -1,5 +1,7 @@
-import './App.css';
-import './Fonts.css';
+import './components/assets/css/fonts.css'
+import './components/assets/css/customize-bootstrap.css'
+import './components/assets/css/styles.css'
+
 import Header from './components/semantics/Header';
 import Nav from './components/semantics/Nav';
 import Main from './components/semantics/Main';
@@ -11,7 +13,7 @@ function App() {
      <Nav />
      <Header />
      <Main />
-     
+     <Footer />
     </>
   );
 }

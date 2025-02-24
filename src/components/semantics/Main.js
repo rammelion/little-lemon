@@ -1,7 +1,13 @@
-export default function Main() {
+import Container from "../Container"
+
+export default function Main(props) {
     return (
         <main>
-            Main
+            <Container>
+                <p>
+                    Test Container
+                </p>
+            </Container>
         </main>
     )
 }

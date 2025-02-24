@@ -1,0 +1,17 @@
+
+.nav-link {
+    font-family: Karla, serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--bs-nav-link-color);
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.navbar-nav {
+    --bs-nav-link-color: #495E57;
+    --bs-nav-link-hover-color: #F4CE14;
+    --bs-nav-link-disabled-color: #EDEFEE;
+}

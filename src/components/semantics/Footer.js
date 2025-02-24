@@ -1,14 +1,14 @@
 import Logo from "../Logo"
-import FooterColumn from "../FooterColumn"
+import Container from "../Container"
 export default function Footer() {
     return (
-        <footer>
-            <FooterColumn>
+        <footer className="col-lg-8 mt-5 mx-auto flex-column flex-lg-row text-left">
+            <Container classes="flex-basis-25">
                 <div>
-                    <Logo location='footer' />
+                    <Logo type='standalone' width="128px" />
                 </div>
-            </FooterColumn>
-            <FooterColumn>
+            </Container>
+            <Container classes="flex-basis-25">
                 <div>
                     <h3>Doormat Navigation</h3>
                     <ul>
@@ -20,9 +20,9 @@ export default function Footer() {
                         <li><a href="/">Menu</a></li>
                     </ul>
                 </div>
-            </FooterColumn>
-            <FooterColumn>
-                <div class="display: block">
+            </Container>
+            <Container classes="flex-basis-25">
+                <div className="display: block">
                     <h3>Contact</h3>
                     <ul>
                         <li>Address</li>
@@ -30,8 +30,8 @@ export default function Footer() {
                         <li>Email</li>
                     </ul>
                 </div>
-            </FooterColumn>
-            <FooterColumn>
+            </Container>
+            <Container classes="flex-basis-25">
                 <div>
                     <h3>Social Media Links</h3>
                     <ul>
@@ -40,7 +40,7 @@ export default function Footer() {
                         <li><a href="/">X</a></li>
                     </ul>
                 </div>
-            </FooterColumn>
+            </Container>
         </footer>
     )
 }
