@@ -60,7 +60,7 @@ footer {
     width: 300px; /* Set the desired square width */
     height: 360px; /* Set the desired square height */
     overflow: hidden;
-
+    border-radius: 8px;
 }
 
 .hero-image img {
