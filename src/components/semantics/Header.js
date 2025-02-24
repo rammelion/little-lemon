@@ -5,7 +5,7 @@ import Container from "../Container"
 export default function Header() {
     return (
         <header className='container flex col-lg-8 mx-lg-auto'>
-            <div id="hero" className="container d-inline-flex px-lg-0">
+            <div id="hero" className="container d-lg-inline-flex px-lg-0">
                 <Container classes="container flex-basis-50">
                     <h1>Little Lemon</h1>
                     <h2>Chicago</h2>

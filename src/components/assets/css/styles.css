@@ -51,8 +51,9 @@ footer {
     display:flex;
     justify-content: end;
     align-items: end;
+    padding-right: 0px;
     width:100%;
-    height:90%;
+    height:100%;
 }
 
 .hero-image {
