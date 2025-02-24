@@ -4,7 +4,7 @@ import NavMenu from "../NavMenu"
 export default function Nav() {
     return (
         <nav>
-            <Logo location='nav' />
+            <a href="/"><Logo type='horizontal' /></a>
             <NavMenu />
         </nav>
     )

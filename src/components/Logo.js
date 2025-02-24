@@ -1,15 +1,20 @@
+import horinzontalLogo from './assets/img/Logo.svg'
+import standAloneLogo from './assets/img/logo.png'
 export default function Logo(props) {
-    if (props.location==='nav') {
+    if (props.type==='horizontal') {
         return (
-            <img src={'/Logo.svg'} alt="Litte Lemon Logo"></img>
+            <a href="/">
+                <img src={horinzontalLogo} alt="Litte Lemon Logo"></img>
+            </a>
         )
-    } else {
+    } else if (props.type==='standalone') {
         return (
             <div>
-                <img src={'/logo.png'} alt="Litte Lemon Logo"></img>
+                <a href="/">
+                    <img src={standAloneLogo} alt="Litte Lemon Logo"></img>
+                </a>
             </div>
-            
+
         )
     }
-    
 }
