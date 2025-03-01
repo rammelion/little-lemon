@@ -1,6 +1,6 @@
 export default function Container(props) {
     return (
-        <div className={props.classes}>
+        <div id={props.idName} className={props.classes}>
             {props.children}
         </div>
     )

@@ -1,21 +1,24 @@
-import './components/assets/css/fonts.css'
-import './components/assets/css/customize-bootstrap.css'
-import './components/assets/css/styles.css'
+import { Suspense, lazy } from 'react'
+import Nav from './components/semantics/Nav'
+import Header from './components/semantics/Header'
+import Main from './components/semantics/Main'
+import Footer from './components/semantics/Footer'
+import GDPR from './components/GDPR'
 
-import Header from './components/semantics/Header';
-import Nav from './components/semantics/Nav';
-import Main from './components/semantics/Main';
-import Footer from './components/semantics/Footer';
+
+// Works also with SSR as expected
+/*const Card = lazy(() => import('./Card'))*/
 
 function App() {
   return (
     <>
-     <Nav />
-     <Header />
-     <Main />
-     <Footer />
+        <Nav />
+        <Header />
+        <Main />
+        <Footer />
+        <GDPR />
     </>
-  );
+  )
 }
 
-export default App;
+export default App

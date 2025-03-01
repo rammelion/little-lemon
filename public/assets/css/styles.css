@@ -1,0 +1,98 @@
+:root{
+    --main-color1: #495E57;
+    --main-color2: #F4CE14;
+    --secondary-color1: #EE9972;
+    --secondary-color2: #FBDABB;
+    --highlight-color1: #EDEFEE;
+    --highlight-color2: #333333;
+}
+
+body {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    color: #220E00;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: var(--main-color1);
+}
+
+h1 {
+    padding-top:0;
+}
+
+h2 {
+    color: var(--main-color2);
+}
+
+header, main, footer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 5rem;
+}
+
+.footer-column {
+    /*border: solid black 1px;
+    background-color: aliceblue;*/
+}
+
+.flex-basis-25 {
+    flex-basis: 25%;
+}
+
+.flex-basis-33 {
+    flex-basis: 33%;
+}
+
+.flex-basis-50 {
+    flex-basis: 50%;
+}
+
+.hero-image-wrapper {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-image {
+    position: relative;
+    width: 300px; /* Set the desired square width */
+    height: 360px; /* Set the desired square height */
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.hero-image img {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+}
+
+#gdpr {
+    z-index: 255;
+}
+
