@@ -3,19 +3,13 @@ import Testimonial from './Testimonial'
 
 export default function Testimonials(props) {
     return (
-        <Container classes='d-block d-lg-inline-flex mx-center'>
-            <Testimonial>
-
-            </Testimonial>
-            <Testimonial>
-                
-            </Testimonial>
-            <Testimonial>
-                
-            </Testimonial>
-            <Testimonial>
-                
-            </Testimonial>
-        </Container>
+        <section id = 'Testimonials' className = 'my-2'>
+            <Container className = 'container mt-lg-5 px-0 py-0 d-block d-lg-inline-flex justify-lg-content-betwen column-gap-lg-5'>
+                <Testimonial />
+                <Testimonial />
+                <Testimonial />
+                <Testimonial />
+            </Container>
+        </section>
     )
 }
