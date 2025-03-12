@@ -2,7 +2,7 @@ import Container from './Container'
 
 export default function HighlightedDish(props) {
     return (
-        <Container className = 'flex-basis-33 bg-body-secondary rounded-bottom-4'>
+        <Container className = 'flex-basis-33 bg-body-primary rounded-bottom-4'>
             
             <Container className = 'bg-body'>
                 <img width='100%' src={props.imgSrc} alt={props.imgAlt} className = 'rounded-top-4' />

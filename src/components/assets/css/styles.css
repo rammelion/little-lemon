@@ -73,3 +73,7 @@ footer {
     height: auto;
 }
 
+#about {
+    height: 140%;
+    aspect-ratio: 4/4;
+}

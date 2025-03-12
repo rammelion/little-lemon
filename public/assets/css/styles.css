@@ -7,13 +7,25 @@
     --highlight-color2: #333333;
 }
 
+.main-color1{
+    color:var(--main-color1);
+}
+
+.main-color2{
+    color:var(--main-color2);
+}
+
+.color-white {
+    color: white;
+}
+
 body {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
     font-family: "Roboto", serif;
     font-optical-sizing: auto;
-    color: #220E00;
+    color: #ffffff;
 }
 
 #root {
@@ -100,7 +112,12 @@ footer {
     height: auto;
 }
 
-#gdpr {
+#gid {
     z-index: 255;
+}
+
+#about{
+    aspect-ratio: 3/1.5;
+    background-image: url('/assets/img/background.png');
 }
 

@@ -1,5 +1,6 @@
 import Logo from "../Logo"
 import Container from "../Container"
+
 export default function Footer() {
     return (
         <footer className="col-lg-8 mt-5 mx-auto flex-column flex-lg-row text-left">
