@@ -54,8 +54,16 @@ footer {
     background-color: aliceblue;*/
 }
 
+.flex-basis-15 {
+    flex-basis: 15%;
+}
+
 .flex-basis-25 {
     flex-basis: 25%;
+}
+
+.flex-basis-28 {
+    flex-basis: 28%;
 }
 
 .flex-basis-33 {

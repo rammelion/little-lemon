@@ -4,6 +4,7 @@ import Container from "../Container"
 
 export default function Header() {
     return (
+        <Container className = 'container col-lg--12 bg-body-secondary'>
         <header className = 'container flex col-lg-8 mx-lg-auto my-5'>
             <Container idName="hero" className = 'container d-lg-inline-flex px-lg-0'>
                 <Container className = 'flex-basis-50'>
@@ -21,5 +22,6 @@ export default function Header() {
                 </Container>
             </Container>
         </header>
+        </Container>
     )
 }

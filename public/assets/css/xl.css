@@ -1,0 +1,25 @@
+@media only screen and (min-width: 922px) {
+
+    #owners {
+        position: relative;
+        flex-basis: 50%;
+        z-index: 1;
+    }
+
+    .about-image1 {
+        width: 66%;
+        position: absolute;
+        left:0;
+        bottom:-20%;
+        z-index: 3;
+    }
+
+    .about-image2 {
+        width: 66%;
+        position: absolute;
+        top:-20%;
+        right:0;
+        z-index: 2;
+    }
+
+}
